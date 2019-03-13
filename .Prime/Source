@@ -1,0 +1,39 @@
+project:
+- id: ReinerNippes/nextcloud
+  list: Top!, Works, ⚝
+  code: https://github.com/ReinerNippes/nextcloud
+  desc: ''Ansible playbook to install nextcloud, php, nginx, mariadb or postgres, redis-server, onlyoffice or collabora office''
+  fix: https://github.com/ReinerNippes/nextcloud/issues/28
+
+- id: ReinerNippes/nextcloud_on_docker
+  list: Top!, Works, ⚝
+  code: https://github.com/ReinerNippes/nextcloud
+  desc: ''Install Latest Nextclod + Mariadb/Postgres/Sqlite + A+ Certificate or Selfsigned - 100% Handsfree on Docker -> Ready to login''
+
+- id:
+  code: https://github.com/nextcloud/richdocuments
+
+
+- id:   Collabora Online Development Edition
+  type:   app
+  home:     https://nextcloud.com/collaboraonline/
+  store:    https://apps.nextcloud.com/apps/richdocuments
+  doc:  https://www.collaboraoffice.com/code/#what_is_code
+  quickstart:   https://www.collaboraoffice.com/code/quick-tryout-nextcloud-docker:  https://hub.docker.com/r/collabora/code
+  container: https://hub.docker.com/r/collabora/code/
+  code:
+
+- id:     libreoffice-online-unlimited
+  type:   docker, compile
+  container:    https://hub.docker.com/r/thedarkknight/libreoffice-online-unlimited/
+  desc:   ''The libreoffice/online image is compiled so that there can only be 20 max connections and 10 max open open documents. Those restrictions make the app unusable for many users. Therefore, I have compiled the project with the max connections and max open documents limits set to 100,000, which should be plenty for all but the largest organizations.''
+
+- id:     nextcloud-libreoffice-online
+  type:   docker
+  code:    https://github.com/smehrbrodt/nextcloud-libreoffice-online
+  desc:   ''This docker configuration help with setting up Nextcloud with LibreOffice Online for testing purposes. It keeps things as simple as possible''
+
+- id:
+  type:   upstream, docker, compile
+  container:    https://hub.docker.com/r/libreoffice/online
+  code: https://cgit.freedesktop.org/libreoffice/online/tree/docker

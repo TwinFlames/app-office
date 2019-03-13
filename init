@@ -1,9 +1,18 @@
 #!/bin/bash
 
 appid='uni/app-office'
-env=native
+choice=nextCloud
+env=vps
+
+role()
+
+appid='uni/app-office'
 choice=libreOffice
+env=native
 
+role()
 
-cd $HOME
-ln -srf $appid/$choice/$env/ ~/.ansible/roles/$choice.$env
+role(){
+  cd $HOME
+  ln -srf $appid/$choice/$env/ ~/.ansible/roles/$choice.$env
+}

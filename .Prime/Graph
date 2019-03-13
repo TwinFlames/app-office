@@ -1,0 +1,11 @@
+id:  Collabora
+https://www.collaboraoffice.com/code/#what_is_code
+
+id: LibreOffice
+
+relation:   LibreOffice & Collabora
+https://www.collaboraoffice.com/libreoffice-from-collabora/
+
+id: ReinerNippes
+entity: Person
+url: https://github.com/ReinerNippes?tab=repositories
