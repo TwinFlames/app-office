@@ -1,0 +1,9 @@
+#!/bin/bash
+
+appid='uni/app-office'
+env=native
+choice=libreOffice
+
+
+cd $HOME
+ln -srf $appid/$choice/$env/ ~/.ansible/roles/$choice.$env

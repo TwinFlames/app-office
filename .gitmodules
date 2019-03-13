@@ -1,0 +1,3 @@
+[submodule "prime/nextcloud-libreoffice-online"]
+	path = prime/nextcloud-libreoffice-online
+	url = https://github.com/smehrbrodt/nextcloud-libreoffice-online.git

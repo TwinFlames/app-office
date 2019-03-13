@@ -1,0 +1,34 @@
+- name: LibreOffice run-time dependencies
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - locales-all
+    - libpng16-16
+    - libxinerama1
+    - libgl1-mesa-glx
+    - libfontconfig1
+    - libfreetype6
+    - libxrender1
+    - libxcb-shm0
+    - libxcb-render0
+    - adduser
+    - cpio
+    - findutils
+    - nano
+    - libpoco*50
+    - libcap2-bin
+    - openssl
+    - inotify-tools
+    - psmisc
+
+- name: Add CJK Fonts to LibreOffice Online Docker Image
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - fonts-wqy-zenhei
+    - fonts-wqy-microhei
+    - fonts-droid-fallback
+    - fonts-noto-cjk
