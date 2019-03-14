@@ -1,2 +1,4 @@
 ''Failed to load Collabora Online - please try again later''
-https://github.com/ReinerNippes/nextcloud/issues/28 
+https://help.nextcloud.com/t/collabra-failed-to-load-collabora-online-please-try-again-later/48486/2
+  Works:  https://github.com/nextcloud/richdocuments/releases/download/v3.0.0-beta1/richdocuments.tar.gz
+  src:   https://github.com/nextcloud/richdocuments/branches
